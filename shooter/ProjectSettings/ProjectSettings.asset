@@ -103,7 +103,8 @@ PlayerSettings:
   iPadHighResLandscapeSplashScreen: {fileID: 0}
   AndroidTargetDevice: 0
   AndroidSplashScreenScale: 0
-  AndroidKeystoreName: /Users/michelbarbousalvador/Desktop/keystore_android .keystore
+  AndroidKeystoreName: /Users/michelbarbousalvador/Documents/BizeuLabs/keystore_android
+    .keystore
   AndroidKeyaliasName: keystore_android
   resolutionDialogBanner: {fileID: 2800000, guid: bab2f5fa3c586094fa12e5c35cad67f5,
     type: 3}

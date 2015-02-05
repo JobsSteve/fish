@@ -8,7 +8,7 @@ public class GameManager : MonoBehaviour
 
 	public float maxSlowMoTime = 2.0f;			// The maximum time the player can spend in slow motion
 	private float slowMoTimer = 0.0f;			// Timer used to keep track of the player's slowmo time
-	private bool canSlowmMotion = true;			// Whether or not the player can currently use slowmo
+	private bool canSlowmMotion = false;			// Whether or not the player can currently use slowmo
 
 
 	// Use this for initialization
@@ -21,24 +21,24 @@ public class GameManager : MonoBehaviour
 	void Update()
 	{
 		// Make sure the player doesn't use slow motion too much
-		if (slowMoTimer >= maxSlowMoTime)
-			canSlowmMotion = false;
-		if (slowMoTimer <= 0)
-			canSlowmMotion = true;
-		if (slowMoTimer < 0.0f)
-			slowMoTimer = 0.0f;
-
-		// Slow motion
-		if (Input.GetButton("Slow Motion") && canSlowmMotion && !paused)
-		{
-			Time.timeScale = 0.2f;
-			slowMoTimer += Time.deltaTime * 5.0f;
-		}
-		else if (!paused)
-		{
-			Time.timeScale = 1.0f;
-			slowMoTimer -= Time.deltaTime;
-		}
+//		if (slowMoTimer >= maxSlowMoTime)
+//			canSlowmMotion = false;
+//		if (slowMoTimer <= 0)
+//			canSlowmMotion = true;
+//		if (slowMoTimer < 0.0f)
+//			slowMoTimer = 0.0f;
+//
+//		// Slow motion
+//		if (Input.GetButton("Slow Motion") && canSlowmMotion && !paused)
+//		{
+//			Time.timeScale = 0.2f;
+//			slowMoTimer += Time.deltaTime * 5.0f;
+//		}
+//		else if (!paused)
+//		{
+//			Time.timeScale = 1.0f;
+//			slowMoTimer -= Time.deltaTime;
+//		}
 
 		// Pause game
 		if (Input.GetButtonDown("Pause"))

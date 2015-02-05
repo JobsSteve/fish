@@ -367,8 +367,8 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 89543e5d38b7a694889d4aed4d6ad11a, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  speed: 42
-  tiltSpeed: 5
+  speed: 10
+  tiltSpeed: .800000012
   cameraGO: {fileID: 501213727}
   distanceFromCamera: 40
 --- !u!95 &91256161
@@ -379,7 +379,7 @@ Animator:
     type: 3}
   m_PrefabInternal: {fileID: 1554756579}
   m_GameObject: {fileID: 91256157}
-  m_Enabled: 1
+  m_Enabled: 0
   m_Avatar: {fileID: 9000000, guid: 4896b123c8d024d76a8028005c6dcb7c, type: 3}
   m_Controller: {fileID: 0}
   m_CullingMode: 0
@@ -2653,6 +2653,14 @@ Prefab:
       propertyPath: m_LocalScale.z
       value: 25
       objectReference: {fileID: 0}
+    - target: {fileID: 100000, guid: 4896b123c8d024d76a8028005c6dcb7c, type: 3}
+      propertyPath: m_IsActive
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 9500000, guid: 4896b123c8d024d76a8028005c6dcb7c, type: 3}
+      propertyPath: m_Enabled
+      value: 0
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_ParentPrefab: {fileID: 100100000, guid: 4896b123c8d024d76a8028005c6dcb7c, type: 3}
   m_RootGameObject: {fileID: 91256157}
@@ -3034,7 +3042,7 @@ MonoBehaviour:
   variation: 1.5
   minimumTime: .600000024
   enemies:
-  - {fileID: 100010, guid: 933bde24468d3a443a8e23ef72b7aa65, type: 2}
+  - {fileID: 108990, guid: 784fe13e2e40c46efa3ac597928ba5ff, type: 2}
   - {fileID: 100010, guid: 1810e811a438d8b48a5dba03dfd974c0, type: 2}
   difficultyIncreaseTime: 12
   scorekeeper: {fileID: 510296671}
