@@ -1,10 +1,14 @@
 ﻿<Properties>
-  <MonoDevelop.Ide.Workspace />
-  <MonoDevelop.Ide.Workbench ActiveDocument="../Documents/BizeuLabs/Dragonfly-REPO/FlyingFly/Assets/FlynUp/Scripts/playerController.cs">
+  <MonoDevelop.Ide.Workspace ActiveConfiguration="Debug" PreferredExecutionTarget="MonoDevelop.Default" />
+  <MonoDevelop.Ide.Workbench ActiveDocument="Assets/Raptor Combat/Scripts/Player Control/LevelProgression.cs">
     <Files>
-      <File FileName="../Documents/BizeuLabs/Dragonfly-REPO/FlyingFly/Assets/FlynUp/Scripts/SocialController.cs" Line="146" Column="36" />
-      <File FileName="../Documents/BizeuLabs/Dragonfly-REPO/FlyingFly/Assets/FlynUp/Scripts/playerController.cs" Line="171" Column="32" />
-      <File FileName="../Documents/BizeuLabs/Dragonfly-REPO/FlyingFly/Assets/FlynUp/Scripts/FireController.cs" Line="1" Column="1" />
+      <File FileName="Assets/Raptor Combat/Scripts/General/Health.cs" Line="1" Column="1" />
+      <File FileName="Assets/Raptor Combat/Scripts/Player Control/PlayerNavigation.cs" Line="73" Column="7" />
+      <File FileName="Assets/Raptor Combat/Scripts/Enemy/EnemyRemover.cs" Line="1" Column="1" />
+      <File FileName="Assets/Raptor Combat/Scripts/Enemy/EnemyNavigation.cs" Line="158" Column="1" />
+      <File FileName="Assets/Raptor Combat/Scripts/Game Manager/GameManager.cs" Line="1" Column="1" />
+      <File FileName="Assets/Raptor Combat/Scripts/General/ConstantTranslate.cs" Line="1" Column="1" />
+      <File FileName="Assets/Raptor Combat/Scripts/Player Control/LevelProgression.cs" Line="66" Column="24" />
     </Files>
   </MonoDevelop.Ide.Workbench>
   <MonoDevelop.Ide.DebuggingService.Breakpoints>

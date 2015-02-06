@@ -72,9 +72,9 @@ public class EnemyNavigation : MonoBehaviour
 		// Tilt the aircraft based on horizontal movement
 		float angle = 0.0f;
 		if (turningRight && tilt)
-			angle = -80.0f;
+			angle = -60.0f;
 		if (turningLeft && tilt)
-			angle = 80.0f;
+			angle = 60.0f;
 		transform.eulerAngles = new Vector3(startingRotation.x, startingRotation.y, Mathf.LerpAngle(transform.eulerAngles.z, angle, tiltSpeed * Time.deltaTime));
 	}
 

@@ -70,9 +70,9 @@ public class PlayerNavigation : MonoBehaviour
 		if (screenPos.y > Screen.height)
 			newPosition = new Vector3(newPosition.x, newPosition.y, Screen.height);
 		
-		Vector3 worldPos = cameraGO.camera.ScreenToWorldPoint(new Vector3(newPosition.x, newPosition.z, distanceFromCamera));
-		
-		transform.position = worldPos;
+//		Vector3 worldPos = cameraGO.camera.ScreenToWorldPoint(new Vector3(newPosition.x, newPosition.z, distanceFromCamera));
+//		
+//		transform.position = worldPos;
 		
 
 		// Tilt the aircraft based on horizontal input

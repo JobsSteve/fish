@@ -58,7 +58,7 @@ public class LevelProgression : MonoBehaviour
 		if (terrainPrefabs.Length > 0 && terrainPrefabs[0] != null)
 		{
 			GameObject selectedPrefab = terrainPrefabs[Random.Range(0, terrainPrefabs.Length)];	//
-			GameObject t = Instantiate(selectedPrefab, new Vector3(0, 0, nextInterval + (terrainLength / 2)), Quaternion.identity) as GameObject;
+			GameObject t = Instantiate(selectedPrefab, new Vector3(220, 0, nextInterval + (terrainLength)), Quaternion.identity) as GameObject;
 			terrains.Add(t);
 		}
 
